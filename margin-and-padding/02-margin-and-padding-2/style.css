@@ -1,3 +1,12 @@
+/* This one is a little nicer looking, and a little closer to something you might see in the real world. You'll need to change a little more than just margin and padding to make it look exactly right. */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +15,34 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: auto;
+  padding: 20px 10px 10px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  outline: 1px green solid;
 }
 
 .button-container {
   background: #e3f4ff;
+  /* outline: 1px green solid; */
+  padding: 10px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px 20px;
+  display: block;
+  margin: auto;
 }
